@@ -13,6 +13,22 @@ namespace BT_Thuc_Hanh_ASP_NET_27_8.Controllers
         {
             return View();
         }
+        public ActionResult Getinfo()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Getinfo(string ten, string tuoi, string lop)
+        {
+            //double x = gpt.GiaiPTBacMot(hesoa, hesob);
+            ViewBag.ten = ten;
+            ViewBag.tuoi = tuoi;
+            ViewBag.Lop = lop;
+
+            return View();
+        }
+
 
     }
 }
