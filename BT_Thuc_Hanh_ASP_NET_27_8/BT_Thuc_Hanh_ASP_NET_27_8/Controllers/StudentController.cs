@@ -25,7 +25,6 @@ namespace BT_Thuc_Hanh_ASP_NET_27_8.Controllers
             ViewBag.ten = ten;
             ViewBag.tuoi = tuoi;
             ViewBag.Lop = lop;
-
             return View();
         }
 
